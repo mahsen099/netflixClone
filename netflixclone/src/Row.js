@@ -1,5 +1,6 @@
 import React from 'react'
 import  './Row.css';
+import axios from "./axios";
 function Row({title, fetchUrl}) {
     return (
         <div>
@@ -7,5 +8,4 @@ function Row({title, fetchUrl}) {
         </div>
     )
 }
-
-export default Row
+export default Row;
