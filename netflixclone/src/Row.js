@@ -54,6 +54,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             alt={movie.name}
           />
         ))}
+        
       </div>
       <div style={{ padding: "40px" }}>
         {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
